@@ -1,0 +1,37 @@
+:root {
+  --clr-primary: #19A2AE;
+  --clr-secondary: #2D3248;
+  --clr-secondary-lt: #6A6F81;
+  --clr-helper: #E6E6E6;
+  --clr-ntrl-max: #FFF;
+  --ff-primary: 'Kumbh Sans', sans-serif;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: var(--ff-primary);
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+ul {
+  list-style: none;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

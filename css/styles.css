@@ -75,6 +75,7 @@ a {
   overflow: hidden;
   color: var(--clr-secondary);
   z-index: 3;
+  box-shadow: -2px 35px 100px -5px rgba(0, 0, 0, .3);
 }
 .profile__banner {
   width: 100%;
@@ -113,7 +114,7 @@ a {
 .profile__name {
   margin-block-end: 1.2rem;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 .profile__age {
   margin-inline-start: .5rem;
@@ -137,7 +138,7 @@ a {
 .profile__stat-title {
   margin-block-end: .35rem;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
 }
 .profile__stat-descrip {
